@@ -6,7 +6,6 @@ import pandas as pd
 import streamlit as st
 from pygwalker.api.streamlit import StreamlitRenderer
 
-
 # Adjust the width of the Streamlit page
 st.set_page_config(
     page_title="Use Pygwalker In Streamlit",
