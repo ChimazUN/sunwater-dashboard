@@ -3,13 +3,13 @@ import subprocess
 import threading
 import os
 
-app = Flask(__name__)
+application = Flask(__name__)
 
-@app.route('/')
+@application.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/streamlit')
+@application.route('/streamlit')
 def streamlit():
     return render_template('streamlit.html')
 
@@ -21,4 +21,4 @@ if __name__ == '__main__':
     thread = threading.Thread(target=run_streamlit)
     thread.start()
     
-    app.run(debug=True, use_reloader=False)
+    application.run(debug=True, use_reloader=False)
