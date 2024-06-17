@@ -21,8 +21,11 @@ st.subheader('Upload your dataset here and create a dashboard.')
 st.markdown("""
     <p>
         Welcome to the Data Dashboard. Here, you can upload your dataset and use various tools to generate insightful charts and graphs.
-        For a tutorial on how to use this tool, please watch the following video: 
-        <a href="https://youtu.be/3WjWeH3HIMo?t=168" target="_blank">DASHBOARD TUTORIAL</a> (you can ignore the first 2 minutes & 47 seconds)
+        For instructins on how to use this tool, please refer to the following link: 
+        <a href="https://help.tableau.com/current/pro/desktop/en-us/default.htm8" target="_blank">TABLEAU DOCUMENTATION</a>
+        <br>
+        For further guidance, please watch the following video: 
+        <a href="https://youtu.be/jEgVto5QME8?t=365" target="_blank">DASHBOARD TUTORIAL</a> (you can ignore the first 6 minutes)
     </p>
     """, unsafe_allow_html=True)
 
